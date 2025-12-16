@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Energy Fitness Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #111;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+        .card {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Energy Fitness Club</h1>
+    <p>Фитнес-клуб для здорового образа жизни</p>
+</header>
+
+<div class="container">
+
+    <h2>Личный кабинет клиента</h2>
+
+    <div class="card">
+        <strong>ФИО:</strong> Иванов Иван Иванович<br>
+        <strong>Абонемент:</strong> Стандарт (12 посещений)<br>
+        <strong>Осталось посещений:</strong> 7<br>
+        <strong>Срок действия:</strong> 01.09.2025 – 30.09.2025
+    </div>
+
+    <h2>История посещений</h2>
+
+    <div class="card">
+        <ul>
+            <li>01.09.2025 — Тренажёрный зал</li>
+            <li>03.09.2025 — Кардио тренировка</li>
+            <li>05.09.2025 — Силовая тренировка</li>
+            <li>07.09.2025 — Тренажёрный зал</li>
+            <li>10.09.2025 — Кардио тренировка</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
